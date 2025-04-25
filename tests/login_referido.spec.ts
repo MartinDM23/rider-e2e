@@ -17,7 +17,7 @@ test('referido', async ({ page }) => {
 
     await loginPage.doLogin('dorantesm82+2e2referido@gmail.com', 'IhzAsdaR');
  
-    await page.waitForTimeout(7_000);
+    await page.waitForTimeout(8_000);
     //await page.pause();
     await page.close();
 
