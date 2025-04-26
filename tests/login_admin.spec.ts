@@ -18,6 +18,9 @@ test('Admin', async ({ page }) => {
     await loginPage.doLogin('litigationrider@gmail.com', '12345678');
  
     await page.waitForTimeout(5_000);
+
+    await page.screenshot({path: "./captures/" + Date.now() + "screenshot.jpg"})
+
     //await page.pause();
     await page.close();
 
