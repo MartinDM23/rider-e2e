@@ -19,7 +19,7 @@ test('inversionista', async ({ page }) => {
  
     await page.waitForTimeout(8_000);
 
-    await page.screenshot({path: "./captures/" + Date.now() + "inversionista.jpg"})
+    //await page.screenshot({path: "./captures/" + Date.now() + "inversionista.jpg"})
     //await page.pause();
     await page.close();
 

@@ -19,7 +19,7 @@ test('Admin', async ({ page }) => {
  
     await page.waitForTimeout(5_000);
 
-    await page.screenshot({path: "./captures/" + Date.now() + "screenshot.jpg"})
+    //await page.screenshot({path: "./captures/" + Date.now() + "screenshot.jpg"})
 
     //await page.pause();
     await page.close();
