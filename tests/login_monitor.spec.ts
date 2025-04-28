@@ -15,7 +15,7 @@ test('monitor', async ({ page }) => {
 
     const loginPage = new LoginPage(page);
 
-    await loginPage.doLogin('mdmraider+e2emonitor2@gmail.com', 'ETeTbBF6');
+    await loginPage.doLogin('mdmraider+e2emonitor3@gmail.com', 'Uuyvrjpk');
  
     await page.waitForTimeout(8_000);
     //await page.pause();
